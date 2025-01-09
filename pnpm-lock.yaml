@@ -92,6 +92,9 @@ dependencies:
   react-native-edge-to-edge:
     specifier: ^1.1.2
     version: 1.2.0(react-native@0.76.5)(react@18.3.1)
+  react-native-executorch:
+    specifier: ^0.2.0
+    version: 0.2.0(react-native@0.76.5)(react@18.3.1)
   react-native-flash-message:
     specifier: ^0.4.2
     version: 0.4.2(prop-types@15.8.1)(react-native@0.76.5)(react@18.3.1)
@@ -1882,7 +1885,7 @@ packages:
 
   /@expo/bunyan@4.0.1:
     resolution: {integrity: sha512-+Lla7nYSiHZirgK+U/uYzsLv/X+HaJienbD5AKX1UQZHYfWaP+9uuQluRB4GrEVWF0GZ7vEVp/jzaOT9k/SQlg==}
-    engines: {node: '>=0.10.0'}
+    engines: {'0': node >=0.10.0}
     dependencies:
       uuid: 8.3.2
 
@@ -11302,6 +11305,16 @@ packages:
     peerDependencies:
       react: '>=18.2.0'
       react-native: '>=0.73.0'
+    dependencies:
+      react: 18.3.1
+      react-native: 0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0)(@types/react@18.3.18)(react@18.3.1)
+    dev: false
+
+  /react-native-executorch@0.2.0(react-native@0.76.5)(react@18.3.1):
+    resolution: {integrity: sha512-wzZGJ1v4jeEBUgsvq+axi6yV4h/r5oyQeFKSaqV198O2ehjCuLCgJOSrZ6vJEgCZK24ZGeEa0JlECADWeQ+WUg==}
+    peerDependencies:
+      react: '*'
+      react-native: '*'
     dependencies:
       react: 18.3.1
       react-native: 0.76.5(@babel/core@7.26.0)(@babel/preset-env@7.26.0)(@types/react@18.3.18)(react@18.3.1)
