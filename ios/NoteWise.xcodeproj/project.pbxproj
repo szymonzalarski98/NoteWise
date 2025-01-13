@@ -13,6 +13,7 @@
 		23FEE2B22E664AAE88F7C37E /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE32DB23FA8F4A2F95F27058 /* Inter.ttf */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		54A8CA9EF5C64A48A11DCC68 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CE741373B43E6B6948942 /* noop-file.swift */; };
+		5762511FAAC343BEA067CC90 /* sample-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 997822C762EB465BB03669B2 /* sample-1.mp3 */; };
 		96905EF65AED1B983A6B3ABC /* libPods-NoteWise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-NoteWise.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
@@ -31,6 +32,7 @@
 		6C2E3173556A471DD304B334 /* Pods-NoteWise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteWise.debug.xcconfig"; path = "Target Support Files/Pods-NoteWise/Pods-NoteWise.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-NoteWise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteWise.release.xcconfig"; path = "Target Support Files/Pods-NoteWise/Pods-NoteWise.release.xcconfig"; sourceTree = "<group>"; };
 		7B3CE741373B43E6B6948942 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "NoteWise/noop-file.swift"; sourceTree = "<group>"; };
+		997822C762EB465BB03669B2 /* sample-1.mp3 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sample-1.mp3"; path = "../assets/audioSamples/sample-1.mp3"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = NoteWise/SplashScreen.storyboard; sourceTree = "<group>"; };
 		AE32DB23FA8F4A2F95F27058 /* Inter.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Inter.ttf; path = ../assets/fonts/Inter.ttf; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				AE32DB23FA8F4A2F95F27058 /* Inter.ttf */,
+				997822C762EB465BB03669B2 /* sample-1.mp3 */,
 			);
 			name = Resources;
 			path = "";
@@ -217,6 +220,7 @@
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
 				23FEE2B22E664AAE88F7C37E /* Inter.ttf in Resources */,
 				E5A0F1B36D91B5C06F95DD18 /* PrivacyInfo.xcprivacy in Resources */,
+				5762511FAAC343BEA067CC90 /* sample-1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

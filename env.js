@@ -17,6 +17,7 @@ const z = require('zod');
 
 const packageJSON = require('./package.json');
 const path = require('path');
+const process = require('process');
 const APP_ENV = process.env.APP_ENV ?? 'development';
 const envPath = path.resolve(__dirname, `.env.${APP_ENV}`);
 
@@ -82,6 +83,8 @@ const client = z.object({
   API_URL: z.string(),
   VAR_NUMBER: z.number(),
   VAR_BOOL: z.boolean(),
+  GROQ_API_KEY: z.string(),
+  GROQ_API_URL: z.string(),
 });
 
 const buildTime = z.object({
@@ -89,6 +92,8 @@ const buildTime = z.object({
   EAS_PROJECT_ID: z.string(),
   // ADD YOUR BUILD TIME ENV VARS HERE
   SECRET_KEY: z.string(),
+  GROQ_API_KEY: z.string(),
+  GROQ_API_URL: z.string(),
 });
 
 /**
@@ -106,6 +111,8 @@ const _clientEnv = {
   API_URL: process.env.API_URL,
   VAR_NUMBER: Number(process.env.VAR_NUMBER),
   VAR_BOOL: process.env.VAR_BOOL === 'true',
+  GROQ_API_KEY: process.env.GROQ_API_KEY,
+  GROQ_API_URL: process.env.GROQ_API_URL,
 };
 
 /**
@@ -116,6 +123,8 @@ const _buildTimeEnv = {
   EAS_PROJECT_ID,
   // ADD YOUR ENV VARS HERE TOO
   SECRET_KEY: process.env.SECRET_KEY,
+  GROQ_API_KEY: process.env.GROQ_API_KEY,
+  GROQ_API_URL: process.env.GROQ_API_URL,
 };
 
 /**
